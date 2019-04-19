@@ -5,13 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/BZHProtocol.svg?style=flat)](https://cocoapods.org/pods/BZHProtocol)
 [![Platform](https://img.shields.io/cocoapods/p/BZHProtocol.svg?style=flat)](https://cocoapods.org/pods/BZHProtocol)
 
-## Example
+## 小例子
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
 
-## Installation
+## 安装
 
 BZHProtocol is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -20,10 +19,24 @@ it, simply add the following line to your Podfile:
 pod 'BZHProtocol'
 ```
 
-## Author
+## 版本更新说明
+```
+V0.1.0, 
+1、增加两个协议:
+  (a)BZHViewModelProtocol: 作用于 viewModel
+  (b)BZHViewProtocol: 作用于 view
+  具体方法调用可以参考API 具体实现要分散到具体业务
+2、增加一个分类
+  (a)UIView+BZHConfig:该分类遵守了BZHViewProtocol协议 对于所有view都用使用BZHViewProtocol方法
+```
 
-hanssea, jianye0209@yeah.net
+## 后续
+```
+此套协议持续开发中，后续会增加丰富的功能，很欢迎您和笔者一起为这个协议方案做出g更多贡献。
+```
 
-## License
-
-BZHProtocol is available under the MIT license. See the LICENSE file for more info.
+## 作者
+```
+hanssea, 
+hanssea09@gmail.com
+```

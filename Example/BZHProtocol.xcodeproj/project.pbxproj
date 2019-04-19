@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D90374A3A709A87360DE64E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1D90374A3A709A87360DE64E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BZHProtocol_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BZHProtocol_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,9 +61,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B22A24A15E10BDDAF98FB85C /* Pods-BZHProtocol_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BZHProtocol_Tests.release.xcconfig"; path = "Target Support Files/Pods-BZHProtocol_Tests/Pods-BZHProtocol_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C19AB3C58DF22BEC60BD798E /* BZHProtocol.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BZHProtocol.podspec; path = ../BZHProtocol.podspec; sourceTree = "<group>"; };
+		C19AB3C58DF22BEC60BD798E /* BZHProtocol.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BZHProtocol.podspec; path = ../BZHProtocol.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D582D2F97743010511E0F9EB /* Pods-BZHProtocol_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BZHProtocol_Example.debug.xcconfig"; path = "Target Support Files/Pods-BZHProtocol_Example/Pods-BZHProtocol_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D72D9143EE2D2D6E7CA23E0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D72D9143EE2D2D6E7CA23E0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D8E34BA593CC9CB5A612DC82 /* Pods_BZHProtocol_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BZHProtocol_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39D4CAEDE98EBBFA4EF6D6F /* Pods-BZHProtocol_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BZHProtocol_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BZHProtocol_Tests/Pods-BZHProtocol_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E8DA14EAE1C12C3D1AC424BE /* Pods_BZHProtocol_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BZHProtocol_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +103,6 @@
 				E39D4CAEDE98EBBFA4EF6D6F /* Pods-BZHProtocol_Tests.debug.xcconfig */,
 				B22A24A15E10BDDAF98FB85C /* Pods-BZHProtocol_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

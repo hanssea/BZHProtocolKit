@@ -7,8 +7,8 @@
 //
 
 #import "BZHViewController.h"
-
-@interface BZHViewController ()
+#import <BZHKit.h>
+@interface BZHViewController ()<BZHViewProtocol>
 
 @end
 
@@ -17,7 +17,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+//    [self.view bzh_viewModelWithFeeds:nil success:^(id  _Nonnull responseObject) {
+//        
+//    } failure:^(NSError * _Nonnull error) {
+//        
+//    }];
 }
 
 - (void)didReceiveMemoryWarning

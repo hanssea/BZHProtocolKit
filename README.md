@@ -27,12 +27,12 @@ V0.1.0,
   (b)BZHViewProtocol: 作用于 view
   具体方法调用可以参考API 具体实现要分散到具体业务
 2、增加一个分类
-  (a)UIView+BZHConfig:该分类遵守了BZHViewProtocol协议 对于所有view都用使用BZHViewProtocol方法
+  (a)UIView+BZHConfig:该分类遵守了BZHViewProtocol协议 对于所有view都可以使用BZHViewProtocol方法
 ```
 
 ## 后续
 ```
-此套协议持续开发中，后续会增加丰富的功能，很欢迎您和笔者一起为这个协议方案做出g更多贡献。
+此套协议持续开发中，后续会增加丰富的功能，欢迎您和笔者一起为这个协议方案做出更多贡献。
 ```
 
 ## 作者
